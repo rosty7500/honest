@@ -1,0 +1,199 @@
+[1558550669.733][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1558550669.737][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1558550669.769][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1558550669.778][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\rosty\AppData\Local\Temp\scoped_dir14064_18563\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\rosty\AppData\Local\Temp\scoped_dir14064_30370" data:,
+[1558550670.778][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1558550671.794][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1)",
+      "userDataDir": "C:\\Users\\rosty\\AppData\\Local\\Temp\\scoped_dir14064_30370"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:49220"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+[1558550671.795][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND SetImplicitWait {
+   "ms": 5000.0,
+   "sessionId": "cf30b156b2a8bd436869f2cfa555e440"
+}
+[1558550671.795][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE SetImplicitWait
+[1558550671.797][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND MaximizeWindow {
+   "sessionId": "cf30b156b2a8bd436869f2cfa555e440",
+   "windowHandle": "current"
+}
+[1558550671.797][INFO]: Waiting for pending navigations...
+[1558550671.807][INFO]: Done waiting for pending navigations. Status: ok
+[1558550671.808][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1558550672.925][INFO]: Waiting for pending navigations...
+[1558550672.926][INFO]: Done waiting for pending navigations. Status: ok
+[1558550672.926][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1558550672.928][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND Navigate {
+   "sessionId": "cf30b156b2a8bd436869f2cfa555e440",
+   "url": "https://www.unibet.co.uk/blog"
+}
+[1558550672.928][INFO]: Waiting for pending navigations...
+[1558550672.928][INFO]: Done waiting for pending navigations. Status: ok
+[1558550673.631][INFO]: Waiting for pending navigations...
+[1558550678.260][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.260][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE Navigate
+[1558550678.262][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND FindElement {
+   "sessionId": "cf30b156b2a8bd436869f2cfa555e440",
+   "using": "css selector",
+   "value": "#social-content-hub > div > div.A_aSfFe9DgOoNMeA0FBso > div > div > div:nth-child(3)"
+}
+[1558550678.262][INFO]: Waiting for pending navigations...
+[1558550678.269][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.288][INFO]: Waiting for pending navigations...
+[1558550678.290][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.290][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE FindElement {
+   "ELEMENT": "0.7193135415932046-1"
+}
+[1558550678.294][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND ClickElement {
+   "id": "0.7193135415932046-1",
+   "sessionId": "cf30b156b2a8bd436869f2cfa555e440"
+}
+[1558550678.294][INFO]: Waiting for pending navigations...
+[1558550678.294][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.394][INFO]: Waiting for pending navigations...
+[1558550678.436][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.436][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE ClickElement
+[1558550678.438][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND FindElement {
+   "sessionId": "cf30b156b2a8bd436869f2cfa555e440",
+   "using": "xpath",
+   "value": "//div[@id=\"social-content-hub\"]/div/div/div/div/div[3]/div/div/a/div[2]/span/input"
+}
+[1558550678.438][INFO]: Waiting for pending navigations...
+[1558550678.460][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.494][INFO]: Waiting for pending navigations...
+[1558550678.512][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.512][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE FindElement {
+   "ELEMENT": "0.7193135415932046-2"
+}
+[1558550678.514][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND TypeElement {
+   "id": "0.7193135415932046-2",
+   "sessionId": "cf30b156b2a8bd436869f2cfa555e440",
+   "text": "football",
+   "value": [ "f", "o", "o", "t", "b", "a", "l", "l" ]
+}
+[1558550678.514][INFO]: Waiting for pending navigations...
+[1558550678.530][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.798][INFO]: Waiting for pending navigations...
+[1558550678.809][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.809][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE TypeElement
+[1558550678.810][INFO]: [cf30b156b2a8bd436869f2cfa555e440] COMMAND GetUrl {
+
+}
+[1558550678.810][INFO]: Waiting for pending navigations...
+[1558550678.811][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.814][INFO]: Waiting for pending navigations...
+[1558550678.814][INFO]: Done waiting for pending navigations. Status: ok
+[1558550678.814][INFO]: [cf30b156b2a8bd436869f2cfa555e440] RESPONSE GetUrl "https://www.unibet.co.uk/blog"

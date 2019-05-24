@@ -1,0 +1,249 @@
+[1558555724.359][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1558555724.362][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1558555724.393][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1558555724.400][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\rosty\AppData\Local\Temp\scoped_dir9404_15485\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\rosty\AppData\Local\Temp\scoped_dir9404_13571" data:,
+[1558555725.150][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1558555726.166][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1)",
+      "userDataDir": "C:\\Users\\rosty\\AppData\\Local\\Temp\\scoped_dir9404_13571"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:57387"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+[1558555726.167][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND SetImplicitWait {
+   "ms": 5000.0,
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97"
+}
+[1558555726.168][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE SetImplicitWait
+[1558555726.169][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND MaximizeWindow {
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "windowHandle": "current"
+}
+[1558555726.169][INFO]: Waiting for pending navigations...
+[1558555726.180][INFO]: Done waiting for pending navigations. Status: ok
+[1558555726.181][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1558555727.297][INFO]: Waiting for pending navigations...
+[1558555727.297][INFO]: Done waiting for pending navigations. Status: ok
+[1558555727.297][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1558555727.299][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND Navigate {
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "url": "https://www.unibet.co.uk/blog"
+}
+[1558555727.299][INFO]: Waiting for pending navigations...
+[1558555727.300][INFO]: Done waiting for pending navigations. Status: ok
+[1558555728.007][INFO]: Waiting for pending navigations...
+[1558555733.409][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.409][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE Navigate
+[1558555733.411][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND FindElement {
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "using": "css selector",
+   "value": "#social-content-hub > div > div.A_aSfFe9DgOoNMeA0FBso > div > div > div:nth-child(3)"
+}
+[1558555733.411][INFO]: Waiting for pending navigations...
+[1558555733.411][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.424][INFO]: Waiting for pending navigations...
+[1558555733.425][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.425][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE FindElement {
+   "ELEMENT": "0.6611582658283264-1"
+}
+[1558555733.426][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND ClickElement {
+   "id": "0.6611582658283264-1",
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97"
+}
+[1558555733.426][INFO]: Waiting for pending navigations...
+[1558555733.427][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.514][INFO]: Waiting for pending navigations...
+[1558555733.530][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.530][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE ClickElement
+[1558555733.532][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND FindElement {
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "using": "xpath",
+   "value": "//div[@id=\"social-content-hub\"]/div/div/div/div/div[3]/div/div/a/div[2]/span/input"
+}
+[1558555733.532][INFO]: Waiting for pending navigations...
+[1558555733.536][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.582][INFO]: Waiting for pending navigations...
+[1558555733.601][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.601][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE FindElement {
+   "ELEMENT": "0.6611582658283264-2"
+}
+[1558555733.606][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND TypeElement {
+   "id": "0.6611582658283264-2",
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "text": "football",
+   "value": [ "f", "o", "o", "t", "b", "a", "l", "l" ]
+}
+[1558555733.606][INFO]: Waiting for pending navigations...
+[1558555733.616][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.860][INFO]: Waiting for pending navigations...
+[1558555733.864][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.864][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE TypeElement
+[1558555733.865][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND FindElement {
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "using": "xpath",
+   "value": "//div[@id=\"social-content-hub\"]/div/div/div/div/div[3]/div/div/a/div[2]/span/input"
+}
+[1558555733.865][INFO]: Waiting for pending navigations...
+[1558555733.865][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.876][INFO]: Waiting for pending navigations...
+[1558555733.876][INFO]: Done waiting for pending navigations. Status: ok
+[1558555733.876][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE FindElement {
+   "ELEMENT": "0.6611582658283264-2"
+}
+[1558555733.878][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND TypeElement {
+   "id": "0.6611582658283264-2",
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "text": "",
+   "value": [ "" ]
+}
+[1558555733.878][INFO]: Waiting for pending navigations...
+[1558555733.878][INFO]: Done waiting for pending navigations. Status: ok
+[1558555734.468][INFO]: Waiting for pending navigations...
+[1558555734.495][INFO]: Done waiting for pending navigations. Status: ok
+[1558555734.495][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE TypeElement
+[1558555734.496][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND FindElement {
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "using": "xpath",
+   "value": "//div[@id=\"social-content-hub\"]/div/div[2]/div/div[2]/div/div[2]/a[1]/div/div/p"
+}
+[1558555734.496][INFO]: Waiting for pending navigations...
+[1558555734.497][INFO]: Done waiting for pending navigations. Status: ok
+[1558555739.521][INFO]: Waiting for pending navigations...
+[1558555739.522][INFO]: Done waiting for pending navigations. Status: ok
+[1558555739.522][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="social-content-hub"]/div/div[2]/div/div[2]/div/div[2]/a[1]/div/div/p"}
+  (Session info: chrome=74.0.3729.169)
+[1558555740.023][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND FindElement {
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "using": "xpath",
+   "value": "//div[@id=\"social-content-hub\"]/div/div[2]/div/div[2]/div/div[2]/a[1]/div/div/p"
+}
+[1558555740.024][INFO]: Waiting for pending navigations...
+[1558555740.024][INFO]: Done waiting for pending navigations. Status: ok
+[1558555742.292][INFO]: Waiting for pending navigations...
+[1558555742.333][INFO]: Done waiting for pending navigations. Status: ok
+[1558555742.333][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE FindElement {
+   "ELEMENT": "0.6611582658283264-3"
+}
+[1558555742.335][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] COMMAND FindElements {
+   "sessionId": "89581bbc71ca4e5b3c116fcd74632e97",
+   "using": "xpath",
+   "value": "//div[@id=\"social-content-hub\"]/div/div[2]/div/div[2]/div/div[2]/a[1]/div/div/p"
+}
+[1558555742.335][INFO]: Waiting for pending navigations...
+[1558555742.351][INFO]: Done waiting for pending navigations. Status: ok
+[1558555742.370][INFO]: Waiting for pending navigations...
+[1558555742.372][INFO]: Done waiting for pending navigations. Status: ok
+[1558555742.372][INFO]: [89581bbc71ca4e5b3c116fcd74632e97] RESPONSE FindElements [ {
+   "ELEMENT": "0.6611582658283264-3"
+} ]

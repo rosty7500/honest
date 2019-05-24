@@ -1,0 +1,223 @@
+[1558548836.997][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1558548837.000][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1558548837.001][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1558548837.008][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\rosty\AppData\Local\Temp\scoped_dir23268_11978\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\rosty\AppData\Local\Temp\scoped_dir23268_27724" data:,
+[1558548837.832][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1558548838.847][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1)",
+      "userDataDir": "C:\\Users\\rosty\\AppData\\Local\\Temp\\scoped_dir23268_27724"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:62856"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+[1558548838.849][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND SetImplicitWait {
+   "ms": 5000.0,
+   "sessionId": "addcb163b19f3018a6eae83526565504"
+}
+[1558548838.849][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE SetImplicitWait
+[1558548838.850][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND MaximizeWindow {
+   "sessionId": "addcb163b19f3018a6eae83526565504",
+   "windowHandle": "current"
+}
+[1558548838.851][INFO]: Waiting for pending navigations...
+[1558548838.860][INFO]: Done waiting for pending navigations. Status: ok
+[1558548838.861][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1558548839.978][INFO]: Waiting for pending navigations...
+[1558548839.979][INFO]: Done waiting for pending navigations. Status: ok
+[1558548839.979][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1558548839.981][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND Navigate {
+   "sessionId": "addcb163b19f3018a6eae83526565504",
+   "url": "https://www.unibet.co.uk/blog"
+}
+[1558548839.981][INFO]: Waiting for pending navigations...
+[1558548839.982][INFO]: Done waiting for pending navigations. Status: ok
+[1558548840.704][INFO]: Waiting for pending navigations...
+[1558548846.196][INFO]: Done waiting for pending navigations. Status: ok
+[1558548846.196][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE Navigate
+[1558548846.199][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND FindElement {
+   "sessionId": "addcb163b19f3018a6eae83526565504",
+   "using": "xpath",
+   "value": "//div[@id=\"social-content-hub\"]/div/div/div/div/div[3]/div/div/a/div/i[1]"
+}
+[1558548846.199][INFO]: Waiting for pending navigations...
+[1558548846.200][INFO]: Done waiting for pending navigations. Status: ok
+[1558548846.238][INFO]: Waiting for pending navigations...
+[1558548846.241][INFO]: Done waiting for pending navigations. Status: ok
+[1558548846.241][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE FindElement {
+   "ELEMENT": "0.7440722839467993-1"
+}
+[1558548846.242][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND ClickElement {
+   "id": "0.7440722839467993-1",
+   "sessionId": "addcb163b19f3018a6eae83526565504"
+}
+[1558548846.243][INFO]: Waiting for pending navigations...
+[1558548846.243][INFO]: Done waiting for pending navigations. Status: ok
+[1558548846.348][INFO]: Waiting for pending navigations...
+[1558548846.364][INFO]: Done waiting for pending navigations. Status: ok
+[1558548846.364][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE ClickElement
+[1558548846.366][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND FindElement {
+   "sessionId": "addcb163b19f3018a6eae83526565504",
+   "using": "xpath",
+   "value": "//div[@id=\"social-content-hub\"]/div/div/div/div/div[3]/div/div/a/div[2]/span/input"
+}
+[1558548846.366][INFO]: Waiting for pending navigations...
+[1558548846.372][INFO]: Done waiting for pending navigations. Status: ok
+[1558548846.407][INFO]: Waiting for pending navigations...
+[1558548846.423][INFO]: Done waiting for pending navigations. Status: ok
+[1558548846.423][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE FindElement {
+   "ELEMENT": "0.7440722839467993-2"
+}
+[1558548846.428][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND TypeElement {
+   "id": "0.7440722839467993-2",
+   "sessionId": "addcb163b19f3018a6eae83526565504",
+   "text": "",
+   "value": [ "" ]
+}
+[1558548846.428][INFO]: Waiting for pending navigations...
+[1558548846.445][INFO]: Done waiting for pending navigations. Status: ok
+[1558548847.074][INFO]: Waiting for pending navigations...
+[1558548847.083][INFO]: Done waiting for pending navigations. Status: ok
+[1558548847.083][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE TypeElement
+[1558548847.085][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND FindElement {
+   "sessionId": "addcb163b19f3018a6eae83526565504",
+   "using": "xpath",
+   "value": "//h1[@class=\"_3j1YMd3zjL1xNt87XF8hqO\"]"
+}
+[1558548847.085][INFO]: Waiting for pending navigations...
+[1558548847.087][INFO]: Done waiting for pending navigations. Status: ok
+[1558548847.107][INFO]: Waiting for pending navigations...
+[1558548847.115][INFO]: Done waiting for pending navigations. Status: ok
+[1558548847.115][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE FindElement {
+   "ELEMENT": "0.7440722839467993-3"
+}
+[1558548847.116][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND FindElement {
+   "sessionId": "addcb163b19f3018a6eae83526565504",
+   "using": "xpath",
+   "value": "//h1[@class=\"_3j1YMd3zjL1xNt87XF8hqO\"]"
+}
+[1558548847.117][INFO]: Waiting for pending navigations...
+[1558548847.118][INFO]: Done waiting for pending navigations. Status: ok
+[1558548847.127][INFO]: Waiting for pending navigations...
+[1558548847.129][INFO]: Done waiting for pending navigations. Status: ok
+[1558548847.129][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE FindElement {
+   "ELEMENT": "0.7440722839467993-3"
+}
+[1558548847.131][INFO]: [addcb163b19f3018a6eae83526565504] COMMAND GetElementText {
+   "id": "0.7440722839467993-3"
+}
+[1558548847.131][INFO]: Waiting for pending navigations...
+[1558548847.131][INFO]: Done waiting for pending navigations. Status: ok
+[1558548847.148][INFO]: Waiting for pending navigations...
+[1558548847.152][INFO]: Done waiting for pending navigations. Status: ok
+[1558548847.152][INFO]: [addcb163b19f3018a6eae83526565504] RESPONSE GetElementText "No search results"

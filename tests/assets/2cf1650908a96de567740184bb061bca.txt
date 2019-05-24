@@ -1,0 +1,158 @@
+[1558539544.057][INFO]: [b4b976c17e7d11a805e53d75da53fad4] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1558539544.062][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1558539544.081][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1558539544.090][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\rosty\AppData\Local\Temp\scoped_dir14096_921\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\rosty\AppData\Local\Temp\scoped_dir14096_26426" data:,
+[1558539544.967][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1558539545.984][INFO]: [b4b976c17e7d11a805e53d75da53fad4] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1)",
+      "userDataDir": "C:\\Users\\rosty\\AppData\\Local\\Temp\\scoped_dir14096_26426"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:49164"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+[1558539545.985][INFO]: [b4b976c17e7d11a805e53d75da53fad4] COMMAND SetImplicitWait {
+   "ms": 5000.0,
+   "sessionId": "b4b976c17e7d11a805e53d75da53fad4"
+}
+[1558539545.985][INFO]: [b4b976c17e7d11a805e53d75da53fad4] RESPONSE SetImplicitWait
+[1558539545.987][INFO]: [b4b976c17e7d11a805e53d75da53fad4] COMMAND MaximizeWindow {
+   "sessionId": "b4b976c17e7d11a805e53d75da53fad4",
+   "windowHandle": "current"
+}
+[1558539545.987][INFO]: Waiting for pending navigations...
+[1558539545.999][INFO]: Done waiting for pending navigations. Status: ok
+[1558539546.000][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1558539547.117][INFO]: Waiting for pending navigations...
+[1558539547.118][INFO]: Done waiting for pending navigations. Status: ok
+[1558539547.118][INFO]: [b4b976c17e7d11a805e53d75da53fad4] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1558539547.121][INFO]: [b4b976c17e7d11a805e53d75da53fad4] COMMAND Navigate {
+   "sessionId": "b4b976c17e7d11a805e53d75da53fad4",
+   "url": "https://www.unibet.co.uk/blog"
+}
+[1558539547.121][INFO]: Waiting for pending navigations...
+[1558539547.122][INFO]: Done waiting for pending navigations. Status: ok
+[1558539547.875][INFO]: Waiting for pending navigations...
+[1558539556.511][INFO]: Done waiting for pending navigations. Status: ok
+[1558539556.511][INFO]: [b4b976c17e7d11a805e53d75da53fad4] RESPONSE Navigate
+[1558539556.513][INFO]: [b4b976c17e7d11a805e53d75da53fad4] COMMAND FindElement {
+   "sessionId": "b4b976c17e7d11a805e53d75da53fad4",
+   "using": "id",
+   "value": "snsloginButton"
+}
+[1558539556.513][INFO]: Waiting for pending navigations...
+[1558539556.514][INFO]: Done waiting for pending navigations. Status: ok
+[1558539561.574][INFO]: Waiting for pending navigations...
+[1558539561.575][INFO]: Done waiting for pending navigations. Status: ok
+[1558539561.575][INFO]: [b4b976c17e7d11a805e53d75da53fad4] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"id","selector":"snsloginButton"}
+  (Session info: chrome=74.0.3729.169)

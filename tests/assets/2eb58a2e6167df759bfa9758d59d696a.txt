@@ -1,0 +1,1 @@
+1558539217064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\rosty\\AppData\\Local\\Temp\\rust_mozprofile.Hn4VGDcdDrlR"
